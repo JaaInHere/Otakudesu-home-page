@@ -1,0 +1,547 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+/* emergency report start */
+.emergency {
+    background-color: black;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+    
+}
+
+.emergency a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+}
+
+hr{
+    width: 1rem;
+}
+
+.emergency a:hover hr{
+    width: 3rem;   
+    transition:1s;
+}
+
+
+
+.tutorial a:first-child {
+    margin-right: 1rem;
+}
+
+.report a:first-child {
+    margin-right: 1rem;
+}
+
+.report  {
+    display: inline-block;
+}
+
+.report a {
+    background-color: hsl(0, 0%, 35%);
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.report a:hover {
+    background-color:white;
+    color: black;
+    transition: 1s;
+}
+
+/* emergency report end */
+
+/* header start */
+header {
+    background-color: hsl(0, 0%, 15%);
+    height: 8rem;
+    padding: 1.5rem;
+    padding-left: 10rem;
+}
+/* header end */
+
+/* navbar start */
+.navbar {
+    display: flex;
+    background-color: hsl(0, 0%, 10%);
+    justify-content: space-around;
+    height: 4rem;
+    align-items: center;
+
+}
+
+.navbar .content a {
+    font-family: "ROBOTO",sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+
+    
+}
+
+.content .home {   
+    display: inline-block;
+    background-color: rgb(0, 173, 255);
+    height: 1rem;   
+    line-height: 0rem;
+
+    
+}
+
+input {
+    height: 3rem;
+    width: 14rem;
+}
+
+.content a:hover {
+    display: inline-block;
+    background-color:  rgb(0, 173, 255);
+    height: 1rem;
+    line-height: 0rem;
+    transition: 0.5s;
+}
+
+.limit1, .limit4 {
+    background-color:rgb(0, 173, 255) ;
+    height: 0.4rem;
+    width: 96.5rem;
+}
+/* navbar end */
+
+/* main content start */
+
+
+main {
+    background-color: hsl(0, 0%, 10%);
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 1.5rem;
+    height: 95rem;
+    padding: 0.8rem;
+}
+
+.disclaimer {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    background-color:rgb(106, 145, 255) ;
+    height: 3rem;
+    margin-right: 25rem;
+    display: flex;
+    align-items: center;
+}
+
+.disclaimer p {
+    margin-left: 3.5rem;
+}
+
+.disclaimer2 {
+    background-color: rgb(51, 51, 51);
+    margin-right: 25rem;
+    height: 2.5rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.fb {
+    background-image: url(/OTAKUDESU/images/background-fb.jpg);
+    width: 24rem;
+    height: 10rem;
+    background-size: cover;
+    float: right;
+    
+}
+
+.fb div {
+    color: white;
+}
+
+.fb div p {
+    font-family: sans-serif;
+}
+
+.fb img {
+    width: 75px;
+    height: 75px;
+    border: 4px solid white;
+    margin: 0.5rem;
+    float: left;
+}
+
+.fb .profile p{
+    margin: 0;
+}
+
+.fb .profile .name-fb {
+    font-size: 1.5rem;
+}
+
+.followus {
+    background-color: rgb(255, 255, 255);
+    width:9rem;
+    height: 1.5rem;
+    margin-top: 5rem;
+    border-radius: 2px;
+    float: right;
+    display: flex;
+    align-items: center; 
+    margin-right: 0.5rem;
+}
+
+.fb .followus p {
+    margin-left: 1rem;
+    color: rgb(0, 99, 219);
+}
+
+.fb .more p {
+    margin-left: 1rem;
+    color: rgb(169, 169, 169);
+    
+}
+
+.more {
+    background-color: rgb(255, 255, 255);
+    width: 12.5rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.fa-brands.fa-square-facebook {
+    float: left;
+    color: rgb(0, 99, 219);
+}
+
+.fa-solid.fa-circle-info {
+    float: left;
+    color: rgb(169, 169, 169);
+}
+
+ .oganime a {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+
+
+.cekoganime a {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 28rem;
+    background-color: rgb(29, 65, 253);
+    padding: 0.5rem;
+}
+
+.like {
+    background-color: rgb(51, 51, 51);
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    width: 24rem;
+    float:right ;
+}
+
+.like p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    padding: 0.6rem;
+}
+
+.limit2,.limit3 {
+    background-color:rgb(0, 173, 255) ;
+    height: 0.3rem;
+    width: 54.4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Mengatur row agar vertikal */
+    gap: 0%; /* Jarak antara row1 dan row2 */
+    align-items: center; /* Menyelaraskan row ke tengah */
+}
+
+/* kekuatan dewa GPT membuat code ku jadi makin efektif😭 */
+/* Atur parent untuk menggunakan flexbox */
+.row1, .row2, .row3 {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen dalam row jika ruang tidak cukup */
+    gap: 0.5rem; /* Jarak antar elemen dalam row */
+    justify-content: center; /* Menyelaraskan elemen dalam row ke tengah */
+    width: 100%; /* Memastikan row mengambil lebar penuh dari container */
+    
+}
+
+.row4, .row5 {
+    display: flex;
+    flex-wrap: wrap; /* Membungkus elemen dalam row jika ruang tidak cukup */
+    gap: 0.5rem; /* Jarak antar elemen dalam row */
+    justify-content: center; /* Menyelaraskan elemen dalam row ke tengah */
+    width: 100%; /* Memastikan row mengambil lebar penuh dari container */
+    width: 70%;
+}
+
+.anime1, .anime2, .anime3, .anime4, .anime5, .anime6, .anime7, .anime8, .anime9, .anime10, .anime11, .anime12, .anime13, .anime14, .anime15,
+.anime16, .anime17, .anime18, .anime19, .anime20, .anime21, .anime22, .anime23, .anime24, .anime25 {
+    background-image: url(/OTAKUDESU/images/fantasy-anime-style-scene.jpg);
+    width: 160px;
+    height: 230px;
+    background-size: cover;
+    position: relative;
+    margin-top: 0.6rem;
+    /* Tidak perlu float atau margin-left yang berbeda */
+}
+
+.row1 div, .row2 div, .row3 div, .row4 div, .row5 div {
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    padding: 0.6rem;
+    padding-left: 0;
+}
+
+/* terimakasih dewa GPT gua hilang arah dibagian ini😭 */
+.description {
+    position: absolute; /* Tambahkan ini */
+    bottom: -17px; /* Posisikan di bagian bawah */
+    left: 50%; /* Posisikan di tengah secara horizontal */
+    transform: translateX(-50%); /* Pusatkan secara horizontal */
+    width: 100%; /* Pastikan lebar elemen sesuai dengan lebar parent */
+    text-align: center; /* Posisikan teks di tengah */
+    color: white; /* Opsional: warna teks */
+    padding-bottom: 0;
+    box-sizing: border-box; /* Pastikan padding tidak memengaruhi lebar */
+}
+
+.episode {
+    position: absolute;
+    bottom: 13.1rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 2px;
+    width: 7rem;
+}
+
+.date {
+    position: absolute;
+    bottom: 11.6rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 4rem;
+    font-size: 12.5px;
+}
+
+.day {
+    position: absolute;
+    bottom: 9rem;
+    background-color: rgb(24, 44, 176, 0.7);
+    padding: 4px;
+    width: 6rem;
+    left: 45%;;
+    bottom: 8rem;
+}
+
+.fa-solid.fa-play.play1,.fa-solid.fa-play.play2,.fa-solid.fa-play.play3,.fa-solid.fa-play.play4,.fa-solid.fa-play.play5, 
+.fa-solid.fa-play.play6,.fa-solid.fa-play.play7,.fa-solid.fa-play.play8,.fa-solid.fa-play.play9,.fa-solid.fa-play.play10, 
+.fa-solid.fa-play.play11,.fa-solid.fa-play.play12,.fa-solid.fa-play.play13,.fa-solid.fa-play.play14,.fa-solid.fa-play.play15,
+.fa-solid.fa-play.play16,.fa-solid.fa-play.play17,.fa-solid.fa-play.play18,.fa-solid.fa-play.play19,.fa-solid.fa-play.play20,
+.fa-solid.fa-play.play21,.fa-solid.fa-play.play22,.fa-solid.fa-play.play23,.fa-solid.fa-play.play24,.fa-solid.fa-play.play25 {
+    position: absolute;
+    bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 164px;
+    height: 231px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(255, 255, 255, 0.3);
+    display: none;
+
+}
+
+/* catatan hover harus memiliki nilai awal jika mau transisinya smooth!!! */
+
+.description .judul1, .judul2, .judul3, .judul4, .judul5,
+.judul6, .judul7, .judul8, .judul9, .judul10,
+.judul11, .judul12, .judul13, .judul14, .judul15,
+.judul16, .judul17, .judul18, .judul19, .judul20,
+.judul21, .judul22, .judul23, .judul24, .judul25 {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: padding-bottom 0.3s ease, background-color 0.3s ease; /* Tambahkan transisi untuk properti height dan background-color */
+    padding: 8px;
+    position: relative;
+    
+}
+/* Menyederhanakan padding-bottom pada hover untuk semua judul */
+.anime1:hover .judul1,
+.anime2:hover .judul2,
+.anime3:hover .judul3,
+.anime4:hover .judul4,
+.anime5:hover .judul5,
+.anime6:hover .judul6,
+.anime7:hover .judul7,
+.anime8:hover .judul8,
+.anime9:hover .judul9,
+.anime10:hover .judul10,
+.anime11:hover .judul11,
+.anime12:hover .judul12,
+.anime13:hover .judul13,
+.anime14:hover .judul14,
+.anime15:hover .judul15, 
+.anime16:hover .judul16,
+.anime17:hover .judul17,
+.anime18:hover .judul18,
+.anime19:hover .judul19, 
+.anime20:hover .judul20,
+.anime21:hover .judul21,
+.anime22:hover .judul22,
+.anime23:hover .judul23,
+.anime24:hover .judul24,
+.anime25:hover .judul25
+ {
+    padding-bottom: 80px;
+}
+
+/* Menyederhanakan display untuk ikon play pada hover */
+.anime1:hover #play1,
+.anime2:hover #play2,
+.anime3:hover #play3,
+.anime4:hover #play4,
+.anime5:hover #play5,
+.anime6:hover #play6,
+.anime7:hover #play7,
+.anime8:hover #play8,
+.anime9:hover #play9,
+.anime10:hover #play10,
+.anime11:hover #play11,
+.anime12:hover #play12,
+.anime13:hover #play13,
+.anime14:hover #play14,
+.anime15:hover #play15,
+.anime16:hover #play16,
+.anime17:hover #play17,
+.anime18:hover #play18,
+.anime19:hover #play19,
+.anime20:hover #play20,
+.anime21:hover #play21,
+.anime22:hover #play22,
+.anime23:hover #play23,
+.anime24:hover #play24,
+.anime25:hover #play25
+{ 
+    display: flex;
+}
+
+.disclaimer3 {
+    background-color: rgb(51, 51, 51);
+    margin-top: 1rem;
+    margin-right: 25rem;
+    height: 2.5rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.completed a {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 1rem;
+
+}
+
+
+.cekcompleted a {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 28rem;
+    background-color: rgb(29, 65, 253);
+    padding: 0.5rem;
+}
+
+.limit4 {
+    background-color:rgb(0, 173, 255) ;
+    height: 0.3rem;
+    width: 96.5rem;
+    margin-top: 1rem;
+}
+
+/* main content end*/
+
+/* footer start */
+
+.end {
+    background-color: rgba(18,18,18,255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.end p {
+    color: rgba(153,153,153,255);
+    font-family: sans-serif;
+}
+
+.about, .tips, .info {
+    width: 25%;
+}
+
+.rb1, .rb2, .rb3 {
+   background-color:  hsl(0, 0%, 15%);
+   width: 95%;
+   height: 6px;
+
+}
+
+.tentang, .saran, .informasi {
+    font-weight: bold;
+}
+
+.copyright {
+    background-color: rgb(0, 0, 0);
+    width: 96rem;
+    height: 1.8rem;
+}
+
+.copyright p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(153,153,153,255) ;
+}
+
+/* footer start */
